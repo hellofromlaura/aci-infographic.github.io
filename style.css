@@ -12,6 +12,7 @@ body {
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%);
 }
 h1 {
+    color: #12284b;
     font-size: 46px;
     line-height: 56px;
     font-weight: 200;
@@ -55,6 +56,9 @@ p {
 .center {
     text-align: center;
 }
+.right {
+    text-align: right;
+}
 .button {
     display: block;
     width: fit-content;
@@ -69,7 +73,7 @@ p {
     text-align: center;
 }
 .button.two {
-    margin: 0px auto;
+    margin: 70px auto;
 }
 .button:hover {
     filter: brightness(1.2);
@@ -150,12 +154,14 @@ p {
 .right-speech-bubble {
     position: relative;
     left: 365px;
+    top: 45px;
     width: 90px;
     animation: popup 0.5s ease-in-out 1.5s;
 }
 .right-person-bubble {
     position: relative;
     left: 271px;
+    top: 45px;
     width: 91px;
     /* animation: softpopup 0.5s ease-in-out 5.5s; */
     animation: softpopup 0.5s ease-in-out 2s;
@@ -455,7 +461,6 @@ p {
 .text-col {
     display: flex;
     align-items: center;  
-    max-width: 500px;
 }
 
 .info-section {
@@ -580,6 +585,9 @@ p {
     .button {
         margin: 40px auto;
     }
+    .button.two {
+        margin: 30px auto 0px;
+    }
     .col-4 {
         width: 40%;
     }
@@ -693,6 +701,9 @@ p {
     }
     .button {
         margin: 0px auto 20px;
+    }
+    .button.two {
+        margin: 40px auto;
     }
     .contain-width {
         padding: 20px;
@@ -966,7 +977,8 @@ p {
         line-height: 22px;
     }
     .button.two {
-        margin: 10px auto 0px;
+        margin: 10px auto 20px;
+        width: max-content;
     }
     .logo-main {
         padding: 30px 20px;
@@ -1156,6 +1168,9 @@ p {
     }
     .glider::-webkit-scrollbar-thumb {
         display: none;
+    }
+    .outro-button {
+        width: 100%;
     }
  }
 
