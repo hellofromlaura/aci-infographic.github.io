@@ -111,7 +111,8 @@ p {
     position: relative;
     right: 109px;
     width: 106px;
-    animation: softpopup 0.5s ease-in-out 5s;
+    /* animation: softpopup 0.5s ease-in-out 5s; */
+    animation: softpopup 0.5s ease-in-out 1.5s;
 }
 .left-loader-contain {
     position: relative;
@@ -133,7 +134,8 @@ p {
     position: relative;
     width: 106px;
     left: 140px;
-    animation: softpopup 0.5s ease-in-out 3s;
+    /* animation: softpopup 0.5s ease-in-out 3s; */
+    animation: softpopup 0.5s ease-in-out 1s;
 }
 .middle-loader-contain {
     position: relative;
@@ -155,7 +157,8 @@ p {
     position: relative;
     left: 271px;
     width: 91px;
-    animation: softpopup 0.5s ease-in-out 5.5s;
+    /* animation: softpopup 0.5s ease-in-out 5.5s; */
+    animation: softpopup 0.5s ease-in-out 2s;
 }
 .right-loader-contain {
     position: relative;
