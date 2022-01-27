@@ -12,18 +12,18 @@ body {
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%);
 }
 h1 {
-    color: #12284b;
+    color: #0d274d;
     font-size: 46px;
     line-height: 56px;
     font-weight: 200;
 }
 h2 {
-    color: #12284b;
+    color: #0d274d;
     font-size: 38px;
     line-height: 46px;
 }
 p {
-    color: #12284b;
+    color: #0d274d;
     font-size: 18px;
     line-height: 26px;
 }
@@ -32,7 +32,7 @@ p {
 }
 .container {
     max-width: none;
-    padding-bottom: 5px;
+    padding: 30px 0 5px;
 }
 .contain-width {
     padding-right: 70px;
@@ -42,7 +42,7 @@ p {
     height: 450px;
 }
 .dark-bg {
-    background-color: #0D274D;
+    background-color: #0d274d;
 }
 .grey-bg {
     background: #f2f2f2;
@@ -62,22 +62,26 @@ p {
 .button {
     display: block;
     width: fit-content;
-    margin: 70px auto;
-    padding: 12px 30px;
+    min-width: 126px;
+    margin: 10px auto 70px;
+    /* margin: 70px auto; */
+    /* padding: 12px 24px; */
+    padding: 19px 36px;
     border-radius: 30px;
     background-color: #00bceb;
-    color: #12284b;
+    color: #0d274d;
     font-weight: 400;
-    font-size: 1.1 em;
+    font-size: 16px;
+    line-height: 24px;
     text-decoration: none;
     text-align: center;
-}
-.button.two {
-    margin: 70px auto;
 }
 .button:hover {
     filter: brightness(1.2);
     color: #fff;
+}
+.m-0 {
+    align-items: center;
 }
 .logo-main {
     display: block;
@@ -296,25 +300,26 @@ p {
     width: 330px;
     padding: 0px;
     margin: auto;
-    height: 170px;
+    height: 200px;
 }
 .aci-path {
     position: relative;
     width:300px;
+    top: 30px;
     animation: fadeout 1.5s ease-in-out 1 alternate;
 }
 .aci-center-circle {
     position: relative;
     border-radius: 50%;
     width: 130px;
-    bottom: 151px;
+    bottom: 121px;
     left: 82px;
 }
 .aci-dotted-orbit {
     position: relative;
     border-radius: 50%;
     width: 144px;
-    bottom: 151px;
+    bottom: 121px;
     right: 59px;
     animation: rotateRight 26s linear infinite;
 }
@@ -322,7 +327,7 @@ p {
     position: relative;
     border-radius: 50%;
     width: 44px;
-    bottom: 216px;
+    bottom: 186px;
     right: 269px;
     animation: fadeout 2.5s ease-in-out 1 alternate 1.7s;
 }
@@ -330,7 +335,7 @@ p {
     position: relative;
     border-radius: 50%;
     width: 44px;
-    bottom: 315px;
+    bottom: 285px;
     left: 266px;
     animation: fadeout 2s ease-in-out 1 alternate 1s;
 }
@@ -338,7 +343,7 @@ p {
     position: relative;
     border-radius: 50%;
     width: 54px;
-    bottom: 258px;
+    bottom: 228px;
     left: 198px;
     animation: fadeout 1.8s ease-in-out 1 alternate 1.5s;
 }
@@ -346,7 +351,7 @@ p {
     position: relative;
     border-radius: 50%;
     width: 34px;
-    bottom: 176px;
+    bottom: 146px;
     left: 170px;
     animation: fadeout 2.8s ease-in-out 1 alternate 2s;
 }
@@ -354,7 +359,7 @@ p {
     position: relative;
     border-radius: 50%;
     width: 34px;
-    bottom: 169px;
+    bottom: 139px;
     right: 93px;
     animation: fadeout 1.5s ease-in-out 1 alternate 2.3s;
 }
@@ -362,20 +367,24 @@ p {
     position: relative;
     border-radius: 50%;
     width: 54px;
-    bottom: 227px;
+    bottom: 197px;
     right: 206px;
     animation: fadeout 1.83s ease-in-out 1 alternate 1.8s;
 }
 .aci-text {
     position: relative;
-    bottom: 300px;
+    bottom: 270px;
     left: 114px;
     color: #fff;
     font-weight: 300;
 }
 
 /* Data Center */
-.aci-cloud {
+.aci-cloud-1 {
+    position: relative;
+    width: 260px;
+}
+.aci-cloud-2 {
     position: relative;
     width: 250px;
 }
@@ -384,8 +393,8 @@ p {
     width: 35px;
 }
 .gear-1 {
-    bottom: 180px;
-    left: 196px;
+    bottom: 186px;
+    left: 206px;
     animation: 2s rotateLeft infinite linear;
 }
 .gear-2 {
@@ -393,16 +402,12 @@ p {
     right: 22px;
     animation: 2s rotateRight infinite linear;
 }
-
-.info-div {
-    padding: 70px 0px;
-}
 .text-col {
     display: flex;
     align-items: center;  
 }
 .ref {
-    background-color: #0D274D;
+    background-color: #0d274d;
     padding: 70px;
     font-weight: 200;
 }
@@ -446,7 +451,7 @@ p {
 .slideshow-container {
     margin-top: 20px;
     padding: 80px 70px 70px;
-    background-color: #0D274D;
+    background-color: #0d274d;
 }
 .glider-contain {
     width: 100% !important;
@@ -512,10 +517,7 @@ p {
         line-height: 23px;
     }
     .button {
-        margin: 40px auto;
-    }
-    .button.two {
-        margin: 30px auto 0px;
+        margin: 0px auto 30px;
     }
     .col-4 {
         width: 40%;
@@ -537,10 +539,7 @@ p {
         padding: 40px 20px 40px 0px;
     }
     .sub-section {
-        padding: 30px;
-    }
-    .info-div {
-        padding: 40px 0px;
+        padding:  30px 30px 5px;
     }
     .act-text-column {
         width: 100%;
@@ -587,6 +586,39 @@ p {
     .orbit-container {
         width: 260px;
     }
+    /* Second Section */
+    .aci-text {
+        left: 0px;
+        bottom: 270px;
+        text-align: center;
+    }
+    .aci-path {
+        left: 20px;
+    }
+    .aci-center-circle {
+        left: 100px;
+    }
+    .aci-dotted-orbit {
+        right: 41px;
+    }
+    .aci-server {
+        right: 249px;
+    }
+    .aci-cloud-green {
+        left: 286px;
+    }
+    .aci-cloud-server-2 {
+        left: 218px;
+    }
+    .aci-cloud-grey {
+        left: 190px;
+    }
+    .aci-cloud-green-2 {
+        right: 73px;
+    }
+    .aci-cloud-grey-2 {
+        right: 186px;
+    }
     /* Slides */
     .slide-img {
         width: 65%;
@@ -615,9 +647,6 @@ p {
     }
     .button {
         margin: 0px auto 20px;
-    }
-    .button.two {
-        margin: 40px auto;
     }
     .contain-width {
         padding: 20px;
@@ -658,11 +687,9 @@ p {
     .sub-section {
         padding: 40px 40px 1px;
     }
-    .info-div {
-        padding: 45px 0px;
-    }
     .col-8 {
-        width: 100%;;
+        width: 100%;
+        padding: 20px 0;
     }
     .text-col {
         padding: 0;
@@ -756,24 +783,25 @@ p {
     }
     /* Second Section */
     .aci-text {
-        left: -19px;
-        bottom: 294px;
-        text-align: center;
+        bottom: 265px;
     }
     /* Third Section */
-    .aci-cloud {
+    .aci-cloud-1 {
+        width: 215px;
+    }
+    .aci-cloud-2 {
         width: 190px;
     }
     .gear-white {
         width: 30px;
     }
     .gear-1 {
-        bottom: 138px;
-        left: 147px;
+        bottom: 155px;
+        left: 168px;
     }
     .gear-2 {
-        bottom: 41px;
-        right: 23px;
+        bottom: 44px;
+        right: 20px;
     }
     .circle {
         position: relative;
@@ -843,10 +871,6 @@ p {
         font-size: 16px;
         line-height: 22px;
     }
-    .button.two {
-        margin: 10px auto 20px;
-        width: max-content;
-    }
     .logo-main {
         padding: 30px 20px;
         width: 100%;
@@ -856,27 +880,21 @@ p {
         padding-left: 5px;
     }
     .contain-height {
-        height: 600px;
+        height: 550px;
     }
     .sub-section {
         padding: 25px 5px 5px;
     }
-    .info-div {
-        padding: 10px 0 30px;
-        margin: 0;
-    }
     .col-6 {
         margin: 0 auto;
-    }
-    .col-8 {
-        width: 100%;
     }
     /* Hero */
     .hero-images-container {
         width: 305px;
     }
     .intro-description {
-        bottom: 280px;
+        bottom: 250px;
+        padding: 20px 0px 0px;
     }
     .intro-description > h1, .intro-description > p {
         width: 300px;
@@ -922,11 +940,10 @@ p {
     }
     /* Second Section */
     .aci-container {
-        width: 305px;
+        width: 325px;
     }
     .aci-text {
-        left: -6px;
-        bottom: 288px;
+        bottom: 260px;
     }
     .aci-server {
         bottom: 319px;
@@ -1006,7 +1023,7 @@ p {
 }
 @keyframes changecolor{
     0% { background-color: transparent; }
-    100% { background-color: #F9A918; }
+    100% { background-color: #fbab18; }
 }
 @keyframes fadeout {
     0% { transform: scale(0); }
