@@ -477,6 +477,7 @@ p {
 }
 .glider-next, .glider-prev {
     position: relative !important;
+    top: 0% !important;
 }
 .prev-img {
     position: relative;
